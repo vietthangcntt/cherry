@@ -261,3 +261,88 @@ ul.filter li:after {
 		padding: 0;
 	}
 }
+.down-submit {
+    width: 138px;
+    height: 40px;
+    background: #c3917d;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+	font-family: Droid Serif;
+	font-size: 14px;
+	font-weight: bold;
+	margin-left: 50px;
+
+}
+.down-button {
+    border: 1px solid #c3917d;
+    border-radius: 3px;
+    background: transparent;
+    height: 35px;
+    width: 35px;
+}
+.down-button i {
+	font-size: 14px;
+	color: #c3917d;
+}
+.down-input {
+	height: 35px;
+    width: 75px;
+    border: 1px solid #c3917d;
+    border-radius: 3px;
+    background: transparent;
+    text-align: center;
+}
+.all-portfolios {
+	padding-top: 50px;
+}
+.content-heder h2 a {
+    font-family: Droid Serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #000000;
+}
+.content-heder h3 a {
+    font-family: Droid Serif;
+    font-size: 30px;
+    color: #000000;
+}
+.content-heder p a {
+	font-family: Droid Serif;
+    font-size: 14px;
+    color: #000000;
+}
+.content-heder h5 a {
+	font-family: Droid Serif;
+    font-size: 14px;
+    color: #000000;
+    font-style: italic;
+}
+.content-logo h3 a {
+	font-family: Droid Serif;
+    font-size: 14px;
+    color: #000000;
+}
+.content-logo {
+	text-align: center;
+	padding-top: 30px;
+}
+.content-down p a {
+	font-family: Droid Serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #b9b9b9;
+}
+.content-heder p i {
+	color: #c3917d;
+    margin-right: 3px;
+}
+.content-heder h5 {
+	    padding: 20px 0 20px 0;
+}
+.content-down p {
+	    padding-top: 20px;
+}
+.content-heder p {
+	    padding-top: 20px;
+}
