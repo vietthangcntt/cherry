@@ -114,7 +114,7 @@ body {
     padding-top: 30px;
 }
 .footer-bottom {
-	padding-top: 50px;
+	padding-top: 10px;
 }
 .footer-icon {
 	padding-top: 50px;
@@ -159,7 +159,7 @@ body {
 }
 #main {
 	padding-top: 80px;
-	padding-bottom: 50px;
+	padding-bottom: 90px;
 }
 .footer-down {
 	text-align: center;
@@ -178,15 +178,16 @@ body {
     height: 40px;
     font-size: 14px;
     font-weight: bold;
+    border-radius: 4px;
 }
 .portfolio-filter {}
 ul.filter {color: #c6c6c6; text-transform:none}
-ul.filter li{display: inline-block;padding-right: 25px;padding-left: 25px;position: relative;cursor: pointer}
+ul.filter li{display: inline-block;padding-right: 25px;padding-left: 25px;font-style:italic; position: relative;cursor: pointer; font-size: 14px; font-family: Droid Serif;}
 ul.filter li.active{color: #c3917d}
 ul.filter li:after{content: "/";position: relative;right: 0;top: 0;color: #c6c6c6}
 ul.filter li:last-child{}
 ul.filter li:last-child:after{display: none}
-.all-portfolios {margin-top: 20px;margin-left: -10px}
+.all-portfolios {margin-top: -30px;margin-left: -10px}
 .single-portfolio {float: left;
 margin-bottom: 10px;
 margin-left: 10px;
@@ -275,7 +276,7 @@ ul.filter li:after {
 
 }
 .down-button {
-    border: 1px solid #c3917d;
+    border: 2px solid #c3917d;
     border-radius: 3px;
     background: transparent;
     height: 35px;
@@ -288,7 +289,7 @@ ul.filter li:after {
 .down-input {
 	height: 35px;
     width: 75px;
-    border: 1px solid #c3917d;
+    border: 2px solid #c3917d;
     border-radius: 3px;
     background: transparent;
     text-align: center;
@@ -326,6 +327,7 @@ ul.filter li:after {
 .content-logo {
 	text-align: center;
     padding-top: 100px;
+    margin-bottom: -30px;
 }
 .content-down p a {
 	font-family: Droid Serif;
@@ -333,9 +335,10 @@ ul.filter li:after {
     font-weight: bold;
     color: #b9b9b9;
 }
-.content-heder p i {
+.content-heder h4 i {
 	color: #c3917d;
     margin-right: 3px;
+    font-size: 16px;
 }
 .content-heder h5 {
 	    padding: 20px 0 20px 0;
@@ -357,4 +360,15 @@ ul.filter li:after {
 		margin-left: 0;
 		margin-top: 20px;
 	}
+}
+.blog-list h4 {
+	margin-top: -7px;
+}
+.content-heder h4 a {
+	font-family: Droid Serif;
+    font-size: 14px;
+    color: #000000;
+}
+.content-heder h4 {
+	margin-top: -5px;
 }

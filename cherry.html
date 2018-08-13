@@ -11,6 +11,7 @@
 	    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Droid Serif" rel="stylesheet">
 	</head>
 	<body>
 		<header>
@@ -38,14 +39,14 @@
 		<div id="main">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-6">
+					<div class="col-md-6 ">
 						<a href="#"> <img src="images/content-picture.png"> </a>
 					</div>
 					<div class="col-md-6">
 						<div class="content-main">
 						<div class="content-heder">
 							<h2> <a> Pear-blue cheseese salad </a></h2>
-							<p><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i> <a> ( 6 customer review ) </a></p>
+							<h4><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i> <a> ( 6 customer review ) </a></h4>
 							<h3> <a>$ 5.00 </a> </h3>
 							<p><a> Minimize Minimize Your Third-Party Asset: all ConsultWP is a global consuting power house. our operations a  Your Third-Party Asset: all ConsultWP is a global consuting power our operations a few decades ago and have grown due to</a> </p>
 							<p><a> Minimize Minimize Your Third-Party Asset: all ConsultWP is a global consuting power house. We began our operations a   Minimize Your Third-Party Asset: all ConsultWP is a to</a> </p>
@@ -65,7 +66,7 @@
 						<a href="#"> <img src="images/content-down.png"></a>
 						<h3> <a>YOU MIGHT ALSO LIKE THESE </a> </h3>
 					</div>
-
+					<div class="content-menu">
 					<div class="all-portfolios">
 					    <div class="single-portfolio web-design">
 					    	<div class="images-main">
@@ -118,35 +119,7 @@
 		</div>
 	</div>
 </div>
-		    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-		    <script type="text/javascript" src="js/jquery.min.js"></script>
-		    <script type="text/javascript" src="js/isotope-docs.min.js"></script>
-    <script type="text/javascript">  
-      jQuery(document).ready(function($){
-    $(".all-portfolios").isotope({
-        itemSelector: '.single-portfolio',
-        layoutMode: 'fitRows',
-    });
-    
-    $('ul.filter li').click(function(){ 
-        
-      $("ul.filter li").removeClass("active");
-      $(this).addClass("active");        
-
-        var selector = $(this).attr('data-filter'); 
-        $(".all-portfolios").isotope({ 
-            filter: selector, 
-            animationOptions: { 
-                duration: 750, 
-                easing: 'linear', 
-                queue: false, 
-            } 
-        }); 
-      return false; 
-    }); 
-    
-});
-    </script>
+</div>
 		<div id="footer">
 			<div class="footer-top">
 				<div class="container">
@@ -181,5 +154,34 @@
 				</div>
 			</div>
 		</div>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+		    <script type="text/javascript" src="js/jquery.min.js"></script>
+		    <script type="text/javascript" src="js/isotope-docs.min.js"></script>
+    <script type="text/javascript">  
+      jQuery(document).ready(function($){
+    $(".all-portfolios").isotope({
+        itemSelector: '.single-portfolio',
+        layoutMode: 'fitRows',
+    });
+    
+    $('ul.filter li').click(function(){ 
+        
+      $("ul.filter li").removeClass("active");
+      $(this).addClass("active");        
+
+        var selector = $(this).attr('data-filter'); 
+        $(".all-portfolios").isotope({ 
+            filter: selector, 
+            animationOptions: { 
+                duration: 750, 
+                easing: 'linear', 
+                queue: false, 
+            } 
+        }); 
+      return false; 
+    }); 
+    
+});
+    </script>
 	</body>
 </html>
