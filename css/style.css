@@ -325,7 +325,7 @@ ul.filter li:after {
 }
 .content-logo {
 	text-align: center;
-	padding-top: 30px;
+    padding-top: 100px;
 }
 .content-down p a {
 	font-family: Droid Serif;
@@ -345,4 +345,16 @@ ul.filter li:after {
 }
 .content-heder p {
 	    padding-top: 20px;
+}
+.col-md-6 a img {
+	max-width: 100%;
+}
+.content-logo a img {
+	max-width: 100%;
+}
+@media only screen and (max-width: 400px) {
+	.down-submit {
+		margin-left: 0;
+		margin-top: 20px;
+	}
 }
