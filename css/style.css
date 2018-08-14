@@ -1,7 +1,17 @@
+@font-face {
+    font-family: 'DroidSerif';
+    src: url('../fonts/DroidSerif-Regular.ttf'),
+    url('../fonts/DroidSerif-Italic.ttf'),
+    url('../fonts/DroidSerif-BoldItalic.ttf')
+    url('../fonts/DroidSerif-Bold.ttf');
+}
+
 body {
 	font-size: 14px;
+	font-family: 'Droid Serif', Helvetica, sans-serif;
 	margin: 0 auto;
 }
+
 #header {
 	background-image: url(../images/header.png);
 	background-repeat: no-repeat;
@@ -10,6 +20,7 @@ body {
     background-position: center;
 
 }
+
 .sumit {
 	text-align: center;
 	padding-top: 30px;
@@ -371,4 +382,33 @@ ul.filter li:after {
 }
 .content-heder h4 a i {
 	font-size: 16px;
+}
+@media only screen and (max-width: 1024px) {
+	.all-portfolios {
+    	margin-top: -20px;
+    	margin-left: 30px;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.all-portfolios {
+    	margin-top: -20px;
+    	margin-left: 70px;
+	}
+}
+@media only screen and (max-width: 414px) {
+	.all-portfolios {
+    	margin-top: -20px;
+    	margin-left: 48px;
+	}
+}
+@media only screen and (max-width: 375px) {
+	.all-portfolios {
+    	margin-top: -20px;
+    	margin-left: 30px;
+	}
+}
+@media only screen and (max-width: 320px) {
+	.all-portfolios {
+    	margin-left: 0px;
+	}
 }
